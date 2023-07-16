@@ -1,0 +1,62 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+}
+
+h4 {
+    color: gray;
+}
+
+hr {
+    color: gray;
+    border-top: dashed 1px;
+}
+
+.thick {
+    height: 4px;
+    background-color: #ccc;
+    border: none;
+    background-color: black;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+}
+
+.grid-item {
+    display: flex;
+    align-items: center;
+}
+
+#icon {
+    width: 60px;
+    /* adjust as needed */
+    height: 60px;
+    font-size: 45px;
+    color: gray;
+}
+
+.keys {
+    font-size: medium;
+}
+
+.progress::-webkit-progress-value {
+    background-color: gray;
+}
+
+.progress::-moz-progress-bar {
+    background-color: gray;
+}
+
+.progress::-ms-fill {
+    background-color: gray;
+}
+
+.skill {
+    text-decoration-line: underline;
+    text-decoration-line: gray;
+    height: 30px;
+}
